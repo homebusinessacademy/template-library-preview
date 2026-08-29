@@ -1,0 +1,154 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>HBA Template Library</title>
+<meta property="og:title" content="HBA Template Library">
+<meta property="og:description" content="18 high-conversion page templates that adapt to your theme. Refined + Bold lanes.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--ground:#faf8f5;--alt:#f1ede6;--ink:#221c15;--muted:#6b6357;--accent:#c2410c;--line:#e4ddd2}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Public Sans",system-ui,sans-serif;background:var(--ground);color:var(--ink);font-size:16px;line-height:1.5}
+.hero{padding:56px 24px 30px;max-width:1180px;margin:0 auto;text-align:center}
+.badge{display:inline-block;font-weight:800;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);border:2px solid var(--accent);border-radius:999px;padding:6px 14px;margin-bottom:18px}
+h1{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:clamp(32px,5vw,52px);line-height:1.02;letter-spacing:-.02em}
+.sub{color:var(--muted);max-width:60ch;margin:14px auto 0;font-size:18px}
+.toggle{position:sticky;top:0;z-index:20;background:rgba(250,248,245,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:12px;display:flex;gap:8px;justify-content:center;align-items:center;flex-wrap:wrap}
+.toggle b{font-size:13px;color:var(--muted);font-weight:600;margin-right:6px}
+.toggle button{font:inherit;font-weight:600;font-size:14px;cursor:pointer;border:1px solid var(--line);background:#fff;color:var(--ink);padding:8px 16px;border-radius:999px}
+.toggle button.on{background:var(--ink);color:var(--ground);border-color:var(--ink)}
+.wrap{max-width:1180px;margin:0 auto;padding:8px 24px 60px}
+.lane{margin-top:34px}
+.lane-head{display:flex;align-items:baseline;gap:12px;border-bottom:2px solid var(--ink);padding-bottom:10px;margin-bottom:22px;flex-wrap:wrap}
+.lane-head h2{font-family:"Bricolage Grotesque";font-weight:800;font-size:26px}
+.lane-head span{color:var(--muted);font-size:15px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:22px}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column}
+.card[data-lane=bold]{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent) inset}
+figcaption{padding:16px 18px 12px}
+figcaption h3{font-family:"Bricolage Grotesque";font-weight:800;font-size:19px}
+figcaption p{color:var(--muted);font-size:14px;margin-top:2px}
+.frame{height:440px;overflow-y:auto;border-top:1px solid var(--line);background:#fff;scrollbar-width:thin}
+.frame img{width:100%;display:block}
+.open{display:block}
+footer{text-align:center;color:var(--muted);font-size:14px;padding:30px 24px 60px;max-width:60ch;margin:0 auto}
+</style></head><body>
+<div class="hero">
+  <span class="badge">HBA Template Library</span>
+  <h1>Pages that punch above their weight and wear your brand.</h1>
+  <p class="sub">18 high-conversion templates across two lanes. Every one adapts to a member's theme automatically. Toggle a theme below to see the same pages re-skin. Scroll inside a card to see the whole page; click to open full size.</p>
+</div>
+<div class="toggle"><b>Preview theme:</b>
+  <button data-t="default" class="on">Warm (default)</button>
+  <button data-t="midnight">Dark</button>
+  <button data-t="nostyles">No theme</button>
+</div>
+<div class="wrap">
+  <section class="lane"><div class="lane-head"><h2>Refined lane</h2><span>Elegant, premium, restrained &mdash; 15 pages</span></div><div class="grid">
+  <figure class="card" data-lane="refined">
+      <figcaption><h3>Premiere Video Squeeze</h3><p>Lead Capture &middot; Cinema look</p></figcaption>
+      <div class="frame"><a class="open" href="img/cinema-video-squeeze__default.jpg" target="_blank" rel="noopener" title="Open full size">
+        <img data-slug="cinema-video-squeeze" src="img/cinema-video-squeeze__default.jpg" loading="lazy" alt="Premiere Video Squeeze"></a></div>
+    </figure>
+<figure class="card" data-lane="refined">
+      <figcaption><h3>Clean Single Opt-In</h3><p>Lead Capture &middot; Clean Authority look</p></figcaption>
+      <div class="frame"><a class="open" href="img/lead-minimal-optin__default.jpg" target="_blank" rel="noopener" title="Open full size">
+        <img data-slug="lead-minimal-optin" src="img/lead-minimal-optin__default.jpg" loading="lazy" alt="Clean Single Opt-In"></a></div>
+    </figure>
+<figure class="card" data-lane="refined">
+      <figcaption><h3>Free Guide Opt-In</h3><p>Lead Capture &middot; Warm Welcome look</p></figcaption>
+      <div class="frame"><a class="open" href="img/lead-magnet-guide__default.jpg" target="_blank" rel="noopener" title="Open full size">
+        <img data-slug="lead-magnet-guide" src="img/lead-magnet-guide__default.jpg" loading="lazy" alt="Free Guide Opt-In"></a></div>
+    </figure>
+<figure class="card" data-lane="refined">
+      <figcaption><h3>Clarity Guide Opt-In</h3><p>Lead Capture &middot; Editorial look</p></figcaption>
+      <div class="frame"><a class="open" href="img/formcard-optin__default.jpg" target="_blank" rel="noopener" title="Open full size">
+        <img data-slug="formcard-optin" src="img/formcard-optin__default.jpg" loading="lazy" alt="Clarity Guide Opt-In"></a></div>
+    </figure>
+<figure class="card" data-lane="refined">
+      <figcaption><h3>The Editorial Sales Page</h3><p>Sales &middot; Editorial look</p></figcaption>
+      <div class="frame"><a class="open" href="img/editorial-story-sales__default.jpg" target="_blank" rel="noopener" title="Open full size">
+        <img data-slug="editorial-story-sales" src="img/editorial-story-sales__default.jpg" loading="lazy" alt="The Editorial Sales Page"></a></div>
+    </figure>
+<figure class="card" data-lane="refined">
+      <figcaption><h3>Punchy Offer Page</h3><p>Sales &middot; Launch look</p></figcaption>
+      <div class="frame"><a class="open" href="img/sales-short-offer__default.jpg" target="_blank" rel="noopener" title="Open full size">
+        <img data-slug="sales-short-offer" src="img/sales-short-offer__default.jpg" loading="lazy" alt="Punchy Offer Page"></a></div>
+    </figure>
+<figure class="card" data-lane="refined">
+      <figcaption><h3>Launch Webinar Registration</h3><p>Webinar &middot; Launch look</p></figcaption>
+      <div class="frame"><a class="open" href="img/launch-webinar-registration__default.jpg" target="_blank" rel="noopener" title="Open full size">
+        <img data-slug="launch-webinar-registration" src="img/launch-webinar-registration__default.jpg" loading="lazy" alt="Launch Webinar Registration"></a></div>
+    </figure>
+<figure class="card" data-lane="refined">
+      <figcaption><h3>Warm Discovery Call</h3><p>Booking &middot; Warm Welcome look</p></figcaption>
+      <div class="frame"><a class="open" href="img/warm-discovery-call__default.jpg" target="_blank" rel="noopener" title="Open full size">
+        <img data-slug="warm-discovery-call" src="img/warm-discovery-call__default.jpg" loading="lazy" alt="Warm Discovery Call"></a></div>
+    </figure>
+<figure class="card" data-lane="refined">
+      <figcaption><h3>Strategy Session Application</h3><p>Booking &middot; Editorial look</p></figcaption>
+      <div class="frame"><a class="open" href="img/booking-strategy-app__default.jpg" target="_blank" rel="noopener" title="Open full size">
+        <img data-slug="booking-strategy-app" src="img/booking-strategy-app__default.jpg" loading="lazy" alt="Strategy Session Application"></a></div>
+    </figure>
+<figure class="card" data-lane="refined">
+      <figcaption><h3>The Bridge</h3><p>Thank You &amp; Bridge &middot; Editorial look</p></figcaption>
+      <div class="frame"><a class="open" href="img/bridge-presell__default.jpg" target="_blank" rel="noopener" title="Open full size">
+        <img data-slug="bridge-presell" src="img/bridge-presell__default.jpg" loading="lazy" alt="The Bridge"></a></div>
+    </figure>
+<figure class="card" data-lane="refined">
+      <figcaption><h3>Thank You + Watch This</h3><p>Thank You &middot; Cinema look</p></figcaption>
+      <div class="frame"><a class="open" href="img/thankyou-video-bridge__default.jpg" target="_blank" rel="noopener" title="Open full size">
+        <img data-slug="thankyou-video-bridge" src="img/thankyou-video-bridge__default.jpg" loading="lazy" alt="Thank You + Watch This"></a></div>
+    </figure>
+<figure class="card" data-lane="refined">
+      <figcaption><h3>Your Download Is Ready</h3><p>Thank You &middot; Glass Aurora look</p></figcaption>
+      <div class="frame"><a class="open" href="img/thankyou-download__default.jpg" target="_blank" rel="noopener" title="Open full size">
+        <img data-slug="thankyou-download" src="img/thankyou-download__default.jpg" loading="lazy" alt="Your Download Is Ready"></a></div>
+    </figure>
+<figure class="card" data-lane="refined">
+      <figcaption><h3>The Authority Story</h3><p>About &amp; Contact &middot; Clean Authority look</p></figcaption>
+      <div class="frame"><a class="open" href="img/authority-about-story__default.jpg" target="_blank" rel="noopener" title="Open full size">
+        <img data-slug="authority-about-story" src="img/authority-about-story__default.jpg" loading="lazy" alt="The Authority Story"></a></div>
+    </figure>
+<figure class="card" data-lane="refined">
+      <figcaption><h3>Aurora Links</h3><p>Link-in-bio &middot; Glass Aurora look</p></figcaption>
+      <div class="frame"><a class="open" href="img/aurora-link-in-bio__default.jpg" target="_blank" rel="noopener" title="Open full size">
+        <img data-slug="aurora-link-in-bio" src="img/aurora-link-in-bio__default.jpg" loading="lazy" alt="Aurora Links"></a></div>
+    </figure>
+<figure class="card" data-lane="refined">
+      <figcaption><h3>Course Home</h3><p>Membership &amp; Course &middot; Clean Authority look</p></figcaption>
+      <div class="frame"><a class="open" href="img/membership-dashboard__default.jpg" target="_blank" rel="noopener" title="Open full size">
+        <img data-slug="membership-dashboard" src="img/membership-dashboard__default.jpg" loading="lazy" alt="Course Home"></a></div>
+    </figure>
+  </div></section>
+  <section class="lane"><div class="lane-head"><h2>Bold lane</h2><span>Loud, urgent, attention-first &mdash; 3 pages</span></div><div class="grid">
+  <figure class="card" data-lane="bold">
+      <figcaption><h3>Loud Launch VSL</h3><p>Sales &middot; Bold Press look</p></figcaption>
+      <div class="frame"><a class="open" href="img/bold-vsl-sales__default.jpg" target="_blank" rel="noopener" title="Open full size">
+        <img data-slug="bold-vsl-sales" src="img/bold-vsl-sales__default.jpg" loading="lazy" alt="Loud Launch VSL"></a></div>
+    </figure>
+<figure class="card" data-lane="bold">
+      <figcaption><h3>Residual Rush Opt-In</h3><p>Lead Capture &middot; Bold Press look</p></figcaption>
+      <div class="frame"><a class="open" href="img/bold-urgency-optin__default.jpg" target="_blank" rel="noopener" title="Open full size">
+        <img data-slug="bold-urgency-optin" src="img/bold-urgency-optin__default.jpg" loading="lazy" alt="Residual Rush Opt-In"></a></div>
+    </figure>
+<figure class="card" data-lane="bold">
+      <figcaption><h3>Congratulations Bridge</h3><p>Thank You &amp; Bridge &middot; Bold Press look</p></figcaption>
+      <div class="frame"><a class="open" href="img/bold-bridge-congrats__default.jpg" target="_blank" rel="noopener" title="Open full size">
+        <img data-slug="bold-bridge-congrats" src="img/bold-bridge-congrats__default.jpg" loading="lazy" alt="Congratulations Bridge"></a></div>
+    </figure>
+  </div></section>
+</div>
+<footer>Every template is theme-native: colors, fonts, and styles come from the member's global style, so one template looks right on any brand. Preview screenshots &middot; not for redistribution outside HBA.</footer>
+<script>
+const btns=[...document.querySelectorAll('.toggle button')];
+btns.forEach(b=>b.addEventListener('click',()=>{
+  const t=b.dataset.t; btns.forEach(x=>x.classList.toggle('on',x===b));
+  document.querySelectorAll('img[data-slug]').forEach(img=>{
+    img.src='img/'+img.dataset.slug+'__'+t+'.jpg';
+    img.closest('.open').href='img/'+img.dataset.slug+'__'+t+'.jpg';
+  });
+}));
+</script>
+</body></html>
